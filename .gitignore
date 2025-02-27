@@ -1,0 +1,12 @@
+docs
+cmd/cli
+config/production.yaml
+environment/data/*
+environment/grafana-storage/*
+environment/mysql/*
+environment/mysqld-exporter/*
+environment/prometheus/*
+sql
+storages/logs
+templates-email
+.env
