@@ -7,5 +7,5 @@ const (
 	TIME_OTP_REGISTER     int = 1
 	TIME_2FA_OTP_REGISTER int = 10
 
-	HOST_EMAIL string = "anonystick@gmail.com"
+	HOST_EMAIL string = "dracu1st@gmail.com"
 )
