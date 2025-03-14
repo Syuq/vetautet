@@ -27,8 +27,8 @@ docker_down:
 dev:
 	go run ./cmd/$(APP_NAME)
 
-docker_up:
-	docker-compose -f environment/docker-compose-dev.yml up
+docker_pro:
+	docker-compose -f environment/docker-compose-pro.yml up
 
 up_by_one:
 	@GOOSE_DRIVER=$(GOOSE_DRIVER) GOOSE_DBSTRING=$(GOOSE_DBSTRING) goose -dir=$(GOOSE_MIGRATION_DIR) up-by-one
@@ -48,6 +48,6 @@ sqlgen:
 swag:
 	swag init -g ./cmd/server/main.go -o ./cmd/swag/docs
 
-.PHONY: dev downse upse resetse docker_build docker_stop docker_up swag
+.PHONY: dev downse upse resetse docker_build docker_stop docker_up docker_pro swag
 
 .PHONY: air
