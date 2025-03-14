@@ -29,10 +29,10 @@ func ping(c *gin.Context) {
 // @title           API Documentation Ecommerce Backend SHOPDEVGO
 // @version         1.0.0
 // @description     This is a sample server celler server.
-// @termsOfService  github.com/anonystick/go-ecommerce-backend-go
+// @termsOfService  github.com/Syuq/vetautet
 
 // @contact.name   TEAM TIPSGO
-// @contact.url    github.com/anonystick/go-ecommerce-backend-go
+// @contact.url    github.com/Syuq/vetautet
 // @contact.email  tipsgo@gmail.com
 
 // @license.name  Apache 2.0
