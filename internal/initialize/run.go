@@ -12,7 +12,7 @@ func Run() *gin.Engine {
 	// load configuration
 	LoadConfig()
 	m := global.Config.Mysql
-	fmt.Println("Loading configuration nysql", m.Username, m.Password)
+	fmt.Println("Loading configuration mysql", m.Username, m.Password)
 	InitLogger()
 	global.Logger.Info("Config Log ok!!", zap.String("ok", "success"))
 	InitMysql()
